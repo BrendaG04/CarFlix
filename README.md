@@ -16,7 +16,7 @@ This is the **third version** of my **CarCostEstimator** project.
 
 ## 🚀 Tech Stack  
 
-- **Backend:** Java, Spring Boot, Hibernate  
+- **Backend:** Java, Spring Boot, Hibernate, SQL  
 - **Frontend:** Coming soon...  
 - **Database:** PostgreSQL  
 - **Version Control:** Git, GitHub  
