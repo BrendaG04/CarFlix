@@ -17,7 +17,8 @@ This is the **third version** of my **CarCostEstimator** project.
 ## 🚀 Tech Stack  
 
 - **Backend:** Java, Spring Boot, Hibernate, SQL  
-- **Frontend:** Coming soon...  
+- **Frontend:** Coming soon...
+- **Authorization** JWT
 - **Database:** PostgreSQL  
 - **Version Control:** Git, GitHub  
 - **Tools:** Excel  
@@ -34,7 +35,6 @@ This is the **third version** of my **CarCostEstimator** project.
 ## 💡 Future Enhancements  
 
 - 🎨 Improve UI with **React**  
-- 🔍 Add **search and filtering** features  
 - 🔑 Implement **user authentication & authorization**  
 - 📊 Add **data visualization** for price trends  
 - 📱 Develop a **mobile-friendly** interface  
