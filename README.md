@@ -1,6 +1,6 @@
 # 🏎️ CarFlix  
 
-CarFlix is a catalog of over **1,000 popular car makes and models** from **2024 & 2025**, providing details such as **engine type, seating capacity, and estimated price**.  
+CarFlix is a full-stack catalog of over **1,000 popular car makes and models** from **2024 & 2025**, providing details such as **engine type, seating capacity, and estimated price**.  
 
 Built using **Spring Boot**, **ReactJS**, and **PostgreSQL**, this project helps users efficiently browse and explore different cars.  
 
