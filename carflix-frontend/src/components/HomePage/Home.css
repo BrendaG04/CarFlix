@@ -1,0 +1,106 @@
+.home-container {
+    background: radial-gradient(circle, #0C7489, #40a8db);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -30px;
+}  
+.backgroundRoad {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0%;
+    left: 0;
+    object-fit: cover;
+}
+.home-container h1 {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    z-index: 0;
+    font-size: 10rem;
+    color: #0FE6E6;
+    font-weight: bold;
+    text-shadow: 10px 10px 3px rgba(0, 0, 0, 0.5);
+}
+.car-container {
+    position: absolute;
+    bottom: 5%;
+    top: 20%;
+}
+.pinkcar {
+    width: 550px;
+    animation: driveCar 3s ease-in-out infinite alternate;
+}
+.home-container button{
+    position: absolute;
+    background-color: hsl(230, 40%, 14%);
+    bottom: 15%;
+    left: 70%;
+    z-index: 1;
+    font-size: 2.0rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: hsl(335, 99%, 60%);
+    width: 100px auto ;
+    transition: background-color 0.6s ease;
+}
+
+.home-container button:hover{
+    color: hsl(335, 99%, 69%);
+    background-color: hsl(230, 40%, 24%);
+}
+
+@keyframes driveCar {
+    0% { transform: translateX(20vw); }
+    100% { transform: translateX(30vw); }
+}
+
+@media (max-width: 768px) {
+    .home-container h1 {
+        font-size: 7rem;
+        top: 30%;
+    }
+    .car-container {
+        position: absolute;
+        bottom: 5%;
+        top: 30%;
+    }
+    .pinkcar {
+        width: 350px;
+    }
+    .home-container button {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-container {
+        padding: 10px;
+    }
+    .home-container h1 {
+        font-size: 5rem;
+        top: 25%;
+        left: 5%;
+    }
+    .car-container {
+        top: 40%;
+    }
+    .pinkcar {
+        width: 250px;
+    }
+    .home-container button {
+        font-size: 1.2rem;
+        bottom: 10%;
+        left: 60%;
+        padding: 5px 15px;
+    }
+}
