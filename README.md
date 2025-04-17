@@ -4,6 +4,7 @@ CarFlix is a full-stack web application that allows users to explore  over **1,0
 
 
 (only front end is deployed for now https://carflixbg.netlify.app)
+https://brenwareportfolio.netlify.app/projects
 
 
 ## 📌 Features  
