@@ -3,6 +3,9 @@
 CarFlix is a full-stack web application that allows users to explore  over **1,000 popular car makes and models** from **2024 & 2025**, and save their favorite vehicles. The catalog provides details such as **engine type, seating capacity, and estimated price**.  
 
 
+(only front end is deployed for now https://carflixbg.netlify.app/makes)
+
+
 ## 📌 Features  
 
 - ✅ Browse car makes and models with filters.  
